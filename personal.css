@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+li.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+
+header {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(3, 4, 100);
+}
+
+a.header_nav_elements {
+    color: rgb(54, 134, 134);
+}
+
+a:visited {
+    color: rgba(0, 0, 0, 0);
+}
+
+button.google {
+    background-color: rgb(255, 0, 0);
+    color: rgb(4, 5, 85);
+    font-family: fantasy;
+}
+
+hr.bordered {
+    background-color: rgb(15, 8, 117);
+    height: 10px;
+    border: none;
+    margin: 0px;
+}
+
+h1.name {
+    color: rgb(255, 0, 0);
+    border: none;
+    font-size: 33px;
+}

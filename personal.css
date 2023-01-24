@@ -8,37 +8,50 @@ li.no-bullets {
     margin: 15px;
 }
 
-header {
-    margin: 0;
-}
-
 nav {
-    background-color: rgb(3, 4, 100);
+    background-color: rgb(94, 96, 209);
 }
 
 a.header_nav_elements {
-    color: rgb(54, 134, 134);
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
     color: rgba(0, 0, 0, 0);
 }
 
+input {
+    border-radius: 5px;
+    height: 40px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
 button.google {
+    height: 40px;
+    width: 80px;
     background-color: rgb(255, 0, 0);
     color: rgb(4, 5, 85);
     font-family: fantasy;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 30px;
 }
 
-hr.bordered {
-    background-color: rgb(15, 8, 117);
-    height: 10px;
-    border: none;
-    margin: 0px;
+button.google:hover {
+    box-shadow: 8px 8px 15px -5px rgb(121, 68, 68);
+    transform: translateX(-1px) translateY(-1px);
 }
 
 h1.name {
-    color: rgb(255, 0, 0);
+    color: rgb(212, 138, 138);
     border: none;
     font-size: 33px;
+}
+
+.search_bars {
+    transform: translateX(100px);
 }

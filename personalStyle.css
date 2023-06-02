@@ -6,9 +6,3 @@ a {
 a:hover {
     color: rgb(117, 187, 47);
 }
-
-img {
-    max-height: 75px;
-    max-width: 75px;
-    border-radius: 50%;
-}

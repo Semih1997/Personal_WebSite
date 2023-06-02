@@ -28,12 +28,6 @@ body {
     color: rgb(117, 187, 47);
 }
 
-img {
-    max-height: 75px;
-    max-width: 75px;
-    border-radius: 50%;
-}
-
 #section {
     position: absolute;
     top: 50%;
@@ -57,13 +51,4 @@ footer {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
-}
-
-a {
-    text-decoration: none;
-    color: yellow;
-}
-
-a:hover {
-    color: rgb(117, 187, 47);
 }

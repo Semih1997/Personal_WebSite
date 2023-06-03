@@ -24,6 +24,15 @@ body {
     width: 280px;
 }
 
+.works {
+    position: absolute;
+    top: 90px;
+    background: -webkit-linear-gradient(yellow 50%, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #section {
     position: absolute;
     top: 50%;

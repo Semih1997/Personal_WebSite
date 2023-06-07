@@ -1,5 +1,5 @@
 a {
-    text-decoration: underline yellow;
+    text-decoration: underline rgba(255, 255, 0, 0.212);
     color: yellow;
 }
 
@@ -12,5 +12,5 @@ h1 {
 }
 
 .works {
-    text-shadow: 0px 20px 25px red;
+    text-shadow: 0px 20px 5px red;
 }
